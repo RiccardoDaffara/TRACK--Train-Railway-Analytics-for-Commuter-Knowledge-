@@ -16,7 +16,7 @@ def header():
     """)
 
     # Load and display profile picture
-    with open("/Users/riccardodaffara/DataspellProjects/TRACK--Train-Railway-Analytics-for-Commuter-Knowledge-/pages/pp.png", "rb") as file:
+    with open("pages/pp.png", "rb") as file:
         img_data = file.read()
 
     # Encodage de l'image en base64 pour pouvoir l'injecter dans du HTML
